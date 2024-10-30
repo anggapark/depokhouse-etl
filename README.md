@@ -77,6 +77,4 @@ End-to-end data engineering project streaming pipeline starting with the data ga
 
 ## Reference
 
-https://youtu.be/Qx6BAVqnMrs?si=UIDZKQRC1HAK9eom
-
 [Real Estate End to End Data Engineering using AI](https://youtu.be/Qx6BAVqnMrs?si=UIDZKQRC1HAK9eom)
