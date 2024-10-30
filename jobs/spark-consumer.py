@@ -32,6 +32,7 @@ def create_table(session):
             geo_point text,
             floors text ,
             description text,
+            parsed_description text, 
             parent_url text,
             page_url text,
             PRIMARY KEY (page_url)
@@ -59,6 +60,7 @@ def insert_data(session, **kwargs):
             geo_point,
             floors,
             description,
+            parsed_description,
             parent_url,
             page_url
         )
@@ -118,6 +120,7 @@ def main():
             StructField("geo_point", StringType(), True),
             StructField("floors", StringType(), True),
             StructField("description", StringType(), True),
+            StructField("parsed_description", StringType(), True),
             StructField("parent_url", StringType(), True),
             StructField("page_url", StringType(), True),
         ]

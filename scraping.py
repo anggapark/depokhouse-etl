@@ -63,7 +63,7 @@ def parse_page(driver, link, producer):
         description_text = listing.find_element(
             By.CLASS_NAME, "ListingCell-shortDescription"
         ).text
-        # parsed_description = extract_description(description_text)
+        parsed_description = extract_description(description_text)
 
         details = {
             "price": listing.get_attribute("data-price"),
@@ -77,7 +77,7 @@ def parse_page(driver, link, producer):
             "geo_point": listing.get_attribute("data-geo-point"),
             "floors": listing.get_attribute("data-floors_total") or "",
             "description": description_text,
-            # "parsed_description": parsed_description,
+            "parsed_description": parsed_description,
             "parent_url": link,
             "page_url": info_a[i * 2].get_attribute("href"),
         }
