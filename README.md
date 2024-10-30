@@ -63,7 +63,7 @@ End-to-end data engineering project streaming pipeline starting with the data ga
    docker exec -it depok-houseprice-etl-spark-master-1 pip install -r jobs/requirements.txt
 
    # Inside spark-worker
-    docker exec -it depok-houseprice-etl-spark-worker-1 pip install -r jobs/requirements.txt
+   docker exec -it depok-houseprice-etl-spark-worker-1 pip install -r jobs/requirements.txt
    ```
 
 5. run the scraping program
