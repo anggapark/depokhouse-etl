@@ -2,7 +2,7 @@
 
 ## Overview
 
-End-to-end data engineering project streaming pipeline that demonstrates real-time data processing pipeline that can scrape data, process it with an LLM, and stream it through Kafka and Spark, ultimately storing it in Cassandra for future use.
+End-to-end data engineering project streaming pipeline that demonstrates real-time data processing pipeline that can scrape data, process the description with an LLM (Gemini), and stream it through Kafka and Spark, ultimately storing it in Cassandra for future use.
 
 ## Diagram
 
