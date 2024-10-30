@@ -1,0 +1,10 @@
+cassandra_driver==3.29.2
+kafka_python==2.0.2
+numpy==2.1.2
+pandas==2.2.3
+pyspark==3.5.3
+python-dotenv==1.0.1
+Requests==2.32.3
+selenium==4.25.0
+tqdm==4.66.5
+webdriver_manager==4.0.2
