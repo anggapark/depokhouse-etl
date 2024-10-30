@@ -8,16 +8,16 @@ End-to-end data engineering project streaming pipeline starting with the data ga
 
 ## Tools and Technologies
 
-| Tools/Technologies | Function                                                                                              |
-| ------------------ | ----------------------------------------------------------------------------------------------------- |
-| Selenium           | Scraping tool for collecting property data from website                                               |
-| Gemini LLM         | Extract information from house's description                                                          |
-| Python             | Handle the web scraping and data processing logic                                                     |
-| Apache Kafka       | Streaming platform that ingests the scraped data                                                      |
-| Apache Zookeeper   | Manage configuration and synchronization of Kafka nodes                                               |
-| Apache Spark       | Processes the streamed data from Kafka                                                                |
-| Control Center     | Provides a dashboard to monitor, manage, and configure Kafka streaming                                |
-| Apache Cassandra   | Serves as the final storage layer, where the processed data is stored for fast retrieval and querying |
+| Tools/Technologies | Function                                                                                         |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| Selenium           | Scraping tool for collecting property data from website                                          |
+| Gemini LLM         | Extract information from house's description                                                     |
+| Python             | Handle the web scraping and data processing logic                                                |
+| Apache Kafka       | Streaming platform that ingests the scraped data                                                 |
+| Apache Zookeeper   | Manage configuration and synchronization of Kafka nodes                                          |
+| Apache Spark       | Processes the streamed data from Kafka                                                           |
+| Control Center     | Provides a dashboard to monitor, manage, and configure Kafka streaming                           |
+| Apache Cassandra   | Serves as the final storage layer, where the processed data is stored for retrieval and querying |
 
 ## Scripts Overview
 
